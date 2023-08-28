@@ -1,4 +1,4 @@
-##IOS Bluetooth Management SDK
+## IOS Bluetooth Management SDK
 
 ### 一、development guide
   language support：Swift
@@ -7,7 +7,7 @@
     
 
 #### Step 1：Add dependent libraries
-●基础SDK  CreekSDK.framework
+●基础SDK  [CreekSDK.framework](https://creekwearable.github.io/static/IOSSDKVersion/1.0.0/CreekSDK.zip)
 
 <img src="https://creekwearable.github.io/static/image/1.png">
 
