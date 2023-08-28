@@ -1,12 +1,12 @@
 ##IOS Bluetooth Management SDK
 
-###一、development guide
+### 一、development guide
   language support：Swift
   
   Version：Swift 5  --------IOS 13.0
     
 
-####Step 1：Add dependent libraries
+#### Step 1：Add dependent libraries
 ●基础SDK  CreekSDK.framework
 
 <img src="https://creekwearable.github.io/static/image/1.png">
@@ -17,7 +17,7 @@
 
 <img src="https://creekwearable.github.io/static/image/3.png">
 
-####Step 2：Rights Profile
+#### Step 2：Rights Profile
 
 <img src="https://creekwearable.github.io/static/image/4.png">
 
@@ -26,26 +26,26 @@
 <img src="https://creekwearable.github.io/static/image/6.png">
 
 
-###二、SDK usage
+### 二、SDK usage
 
-####initialization
+#### initialization
 ##### CreekInterFace.instance.initSDK()
 
-####Whether to support Zilian authorization code verification
+#### Whether to support Zilian authorization code verification
 ##### type 1 verify 0 do not verify
     CreekInterFace.instance.authorization(type: 0);
 
-####Automatic connection configuration
+#### Automatic connection configuration
 ##### type 1 supports 0 to cancel self-connection
     CreekInterFace.instance.autoConnect(type: 1);
     
-####Monitor Bluetooth device status
+#### Monitor Bluetooth device status
         CreekInterFace.instance.listenDeviceState { status, deviceName in
             print("\(status) \(deviceName)")
         }
 
 #### scanning 
-#####●timeOut   Execution time length to stop scanning optional default 15s
+##### ●timeOut   Execution time length to stop scanning optional default 15s
 
        CreekInterFace.instance.scan(timeOut: 15) { data in
             self.devides = data
@@ -55,7 +55,7 @@
        }
         
 #### stop scanning
-#####CreekInterFace.instance.stopScan()
+##### CreekInterFace.instance.stopScan()
 
 #### connect
 #####● id id Bluetooth device identification
@@ -103,7 +103,7 @@
             }
             
             
-###三、basic instruction 
+### 三、basic instruction 
 
 - []() 
      
