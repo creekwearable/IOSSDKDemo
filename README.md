@@ -7,11 +7,11 @@
     
 
 #### Step 1：Add dependent libraries
-●基础SDK  [CreekSDK.framework](https://creekwearable.github.io/static/IOSSDKVersion/1.0.0/CreekSDK.zip)
+● [CreekSDK.framework](https://creekwearable.github.io/static/IOSSDKVersion/1.0.0/CreekSDK.zip)
 
 <img src="https://creekwearable.github.io/static/image/1.png">
 
-● 添加资源包 Swift Protobuf
+● Add resource pack Swift Protobuf
 
 <img src="https://creekwearable.github.io/static/image/2.png">
 
