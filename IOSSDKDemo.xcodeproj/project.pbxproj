@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07E96C172AA82C0F0017652A /* CreekSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E96C152AA82C040017652A /* CreekSDK.framework */; };
+		07E96C182AA82C0F0017652A /* CreekSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07E96C152AA82C040017652A /* CreekSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07FD9B582A9C8C8F0051C2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD9B572A9C8C8F0051C2F4 /* AppDelegate.swift */; };
 		07FD9B612A9C8C900051C2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FD9B602A9C8C900051C2F4 /* Assets.xcassets */; };
 		07FD9B642A9C8C900051C2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FD9B622A9C8C900051C2F4 /* LaunchScreen.storyboard */; };
@@ -19,8 +21,6 @@
 		07FD9B7F2A9C8E210051C2F4 /* GlobalDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD9B7C2A9C8E210051C2F4 /* GlobalDefine.swift */; };
 		07FD9B802A9C8E210051C2F4 /* PonyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD9B7D2A9C8E210051C2F4 /* PonyAlert.swift */; };
 		07FD9B812A9C8E210051C2F4 /* PonyBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD9B7E2A9C8E210051C2F4 /* PonyBaseViewController.swift */; };
-		07FD9B822A9C8F520051C2F4 /* CreekSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FD9B6B2A9C8D1C0051C2F4 /* CreekSDK.framework */; };
-		07FD9B832A9C8F520051C2F4 /* CreekSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07FD9B6B2A9C8D1C0051C2F4 /* CreekSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B6378C327C7BEC24CD61DB9 /* Pods_IOSSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A094A4599E40FA3CEE9269E1 /* Pods_IOSSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				07FD9B832A9C8F520051C2F4 /* CreekSDK.framework in Embed Frameworks */,
+				07E96C182AA82C0F0017652A /* CreekSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,13 +39,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07E96C152AA82C040017652A /* CreekSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CreekSDK.framework; sourceTree = "<group>"; };
 		07FD9B542A9C8C8F0051C2F4 /* IOSSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FD9B572A9C8C8F0051C2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FD9B5E2A9C8C8F0051C2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07FD9B602A9C8C900051C2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FD9B632A9C8C900051C2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07FD9B652A9C8C900051C2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07FD9B6B2A9C8D1C0051C2F4 /* CreekSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CreekSDK.framework; sourceTree = "<group>"; };
 		07FD9B6D2A9C8D420051C2F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07FD9B6E2A9C8D420051C2F4 /* ScanDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanDeviceViewController.swift; sourceTree = "<group>"; };
 		07FD9B6F2A9C8D420051C2F4 /* CommandReplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandReplyViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			files = (
 				07FD9B7A2A9C8DF00051C2F4 /* protoc-gen-swift in Frameworks */,
 				07FD9B782A9C8DF00051C2F4 /* SwiftProtobufPluginLibrary in Frameworks */,
-				07FD9B822A9C8F520051C2F4 /* CreekSDK.framework in Frameworks */,
+				07E96C172AA82C0F0017652A /* CreekSDK.framework in Frameworks */,
 				5B6378C327C7BEC24CD61DB9 /* Pods_IOSSDKDemo.framework in Frameworks */,
 				07FD9B762A9C8DF00051C2F4 /* SwiftProtobuf in Frameworks */,
 			);
@@ -94,8 +94,8 @@
 		07FD9B562A9C8C8F0051C2F4 /* IOSSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				07E96C152AA82C040017652A /* CreekSDK.framework */,
 				07FD9B7B2A9C8E210051C2F4 /* base */,
-				07FD9B6B2A9C8D1C0051C2F4 /* CreekSDK.framework */,
 				07FD9B572A9C8C8F0051C2F4 /* AppDelegate.swift */,
 				07FD9B6F2A9C8D420051C2F4 /* CommandReplyViewController.swift */,
 				07FD9B6E2A9C8D420051C2F4 /* ScanDeviceViewController.swift */,
