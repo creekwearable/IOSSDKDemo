@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07E96C172AA82C0F0017652A /* CreekSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E96C152AA82C040017652A /* CreekSDK.framework */; };
-		07E96C182AA82C0F0017652A /* CreekSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07E96C152AA82C040017652A /* CreekSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07E96C1B2AA82CE50017652A /* CreekSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E96C192AA82CE10017652A /* CreekSDK.framework */; };
+		07E96C1C2AA82CE50017652A /* CreekSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07E96C192AA82CE10017652A /* CreekSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07FD9B582A9C8C8F0051C2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD9B572A9C8C8F0051C2F4 /* AppDelegate.swift */; };
 		07FD9B612A9C8C900051C2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FD9B602A9C8C900051C2F4 /* Assets.xcassets */; };
 		07FD9B642A9C8C900051C2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FD9B622A9C8C900051C2F4 /* LaunchScreen.storyboard */; };
@@ -31,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				07E96C182AA82C0F0017652A /* CreekSDK.framework in Embed Frameworks */,
+				07E96C1C2AA82CE50017652A /* CreekSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07E96C152AA82C040017652A /* CreekSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CreekSDK.framework; sourceTree = "<group>"; };
+		07E96C192AA82CE10017652A /* CreekSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CreekSDK.framework; sourceTree = "<group>"; };
 		07FD9B542A9C8C8F0051C2F4 /* IOSSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FD9B572A9C8C8F0051C2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FD9B5E2A9C8C8F0051C2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			files = (
 				07FD9B7A2A9C8DF00051C2F4 /* protoc-gen-swift in Frameworks */,
 				07FD9B782A9C8DF00051C2F4 /* SwiftProtobufPluginLibrary in Frameworks */,
-				07E96C172AA82C0F0017652A /* CreekSDK.framework in Frameworks */,
+				07E96C1B2AA82CE50017652A /* CreekSDK.framework in Frameworks */,
 				5B6378C327C7BEC24CD61DB9 /* Pods_IOSSDKDemo.framework in Frameworks */,
 				07FD9B762A9C8DF00051C2F4 /* SwiftProtobuf in Frameworks */,
 			);
@@ -94,7 +94,7 @@
 		07FD9B562A9C8C8F0051C2F4 /* IOSSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				07E96C152AA82C040017652A /* CreekSDK.framework */,
+				07E96C192AA82CE10017652A /* CreekSDK.framework */,
 				07FD9B7B2A9C8E210051C2F4 /* base */,
 				07FD9B572A9C8C8F0051C2F4 /* AppDelegate.swift */,
 				07FD9B6F2A9C8D420051C2F4 /* CommandReplyViewController.swift */,
